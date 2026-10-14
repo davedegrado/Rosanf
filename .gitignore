@@ -1,0 +1,12 @@
+.godot/
+*.translation
+export/
+build/
+*.apk
+*.aab
+*.ipa
+android/build/
+.DS_Store
+__pycache__/
+*.keystore
+export_credentials.cfg

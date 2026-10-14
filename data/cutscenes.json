@@ -1,0 +1,52 @@
+{
+  "cap1_intro": {
+    "music": "cutscene",
+    "panels": [
+      {"image": "umani", "text": {"it": "Sono solo una piccola coccinella...", "en": "I'm just a little ladybug..."}},
+      {"image": "odio", "fx": "shake", "text": {"it": "Gli umani mi schiacciano. Mi spruzzano. Mi ridono in faccia. ODIO GLI UMANI.", "en": "Humans squash me. Spray me. Laugh in my face. I HATE HUMANS."}},
+      {"image": "bomba", "text": {"it": "Così ho deciso: costruirò una bomba. Una bomba NUCLEARE. Mi serve solo un po' di uranio.", "en": "So I decided: I'll build a bomb. A NUCLEAR bomb. I just need some uranium."}},
+      {"image": "donne", "text": {"it": "Ma le donne no. Le donne le salvo. Tutte nel mio bunker.", "en": "But not the women. The women I'll save. All of them, in my bunker."}}
+    ]
+  },
+  "cap1_outro": {
+    "music": "cutscene",
+    "panels": [
+      {"image": "porta_bunker", "text": {"it": "Le donne sono al sicuro nel bunker. Il timer è partito.", "en": "The women are safe in the bunker. The timer is running."}},
+      {"image": "umani", "text": {"it": "Ridevano di me...", "en": "They used to laugh at me..."}},
+      {"image": "esplosione", "fx": "flash", "sfx": "esplosione", "text": {"it": "...ma ora non più.", "en": "...but not anymore."}}
+    ]
+  },
+  "cap2_intro": {
+    "music": "cap2",
+    "panels": [
+      {"image": "harem", "text": {"it": "Nel bunker ci siamo solo io e loro. Tutte le donne sono mie.", "en": "In the bunker it's just me and them. All the women are mine."}},
+      {"image": "harem", "text": {"it": "Orge. Sbronze. Funghetti. Ogni giorno, ogni notte.", "en": "Orgies. Booze. Mushrooms. Every day, every night."}},
+      {"image": "harem", "text": {"it": "...ma dopo un po' anche il paradiso annoia.", "en": "...but after a while even paradise gets boring."}}
+    ]
+  },
+  "cap2_outro": {
+    "music": "cap2",
+    "panels": [
+      {"image": "crepa", "text": {"it": "Quel buco non l'avevo ancora scopato...", "en": "That was the one hole I hadn't tried yet..."}},
+      {"image": "crepa", "fx": "shake", "sfx": "colpo", "text": {"it": "CRACK.", "en": "CRACK."}},
+      {"image": "crepa", "text": {"it": "Da quel giorno non funziona più niente. Niente di niente.", "en": "Since that day nothing works anymore. Nothing at all."}}
+    ]
+  },
+  "cap3_intro": {
+    "music": "cutscene",
+    "panels": [
+      {"image": "sola", "text": {"it": "Esco dal bunker. Il mondo è verde, radioattivo, mutato.", "en": "I leave the bunker. The world is green, radioactive, mutated."}},
+      {"image": "sola", "text": {"it": "Le donne? Sparite. Sono l'unica rimasta.", "en": "The women? Gone. I'm the only one left."}},
+      {"image": "sola", "text": {"it": "Ho fame. Mangerò qualsiasi cosa. QUALSIASI.", "en": "I'm hungry. I'll eat anything. ANYTHING."}}
+    ]
+  },
+  "cap3_outro": {
+    "music": "cutscene",
+    "panels": [
+      {"image": "sola", "text": {"it": "Vago da giorni. La follia mi mangia il cervello.", "en": "I've wandered for days. Madness is eating my brain."}},
+      {"image": "pecora", "text": {"it": "...e poi vidi la pecora.", "en": "...and then I saw the sheep."}},
+      {"image": "pecora", "fx": "shake", "text": {"it": "E laggiù, dopo tanto tempo... qualcosa si risvegliò. Barzotto.", "en": "And down there, after so long... something woke up. Half-mast."}},
+      {"image": "titolo", "text": {"it": "FINE?", "en": "THE END?"}}
+    ]
+  }
+}

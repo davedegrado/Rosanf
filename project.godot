@@ -1,0 +1,54 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Rosanf?"
+config/description="Gioco pixel art tratto dal concept album sbrodol metal dei Rosanf."
+config/version="0.1.0"
+run/main_scene="res://scenes/boot/boot.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+boot_splash/bg_color=Color(0.78, 0.94, 0.85, 1)
+boot_splash/show_image=false
+config/icon="res://icon.png"
+config/quit_on_go_back=false
+
+[autoload]
+
+Game="*res://autoload/game.gd"
+Music="*res://autoload/music.gd"
+Router="*res://autoload/router.gd"
+
+[display]
+
+window/size/viewport_width=320
+window/size/viewport_height=180
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="viewport"
+window/stretch/aspect="keep_height"
+window/handheld/orientation=4
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+2d/snap/snap_2d_transforms_to_pixel=true
+2d/snap/snap_2d_vertices_to_pixel=true
+environment/defaults/default_clear_color=Color(0.1, 0.06, 0.09, 1)
+
+[gui]
+
+theme/custom="res://assets/ui/theme.tres"

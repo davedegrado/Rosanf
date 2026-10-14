@@ -1,0 +1,24 @@
+{
+ "frame_w": 16,
+ "frame_h": 24,
+ "anims": {
+  "idle": {
+   "start": 0,
+   "count": 2,
+   "fps": 3,
+   "loop": true
+  },
+  "dance": {
+   "start": 2,
+   "count": 4,
+   "fps": 6,
+   "loop": true
+  },
+  "happy": {
+   "start": 6,
+   "count": 2,
+   "fps": 8,
+   "loop": true
+  }
+ }
+}

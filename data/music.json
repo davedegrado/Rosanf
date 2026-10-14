@@ -1,0 +1,9 @@
+{
+  "_info": "bpm/beats_per_bar/offset descrivono il brano; cues = {battito_nel_loop: nome_evento}. Vedi docs/MUSICA.md",
+  "menu":     {"file": "res://assets/audio/music/menu.wav",           "bpm": 120, "beats_per_bar": 4, "offset": 0.0, "loop": true,  "cues": {}},
+  "cutscene": {"file": "res://assets/audio/music/cutscene.wav",       "bpm": 80,  "beats_per_bar": 4, "offset": 0.0, "loop": true,  "cues": {}},
+  "cap1":     {"file": "res://assets/audio/music/cap1_bomba.wav",     "bpm": 180, "beats_per_bar": 4, "offset": 0.0, "loop": true,  "cues": {"0": "riff", "16": "lead"}},
+  "cap2":     {"file": "res://assets/audio/music/cap2_harem.wav",     "bpm": 72,  "beats_per_bar": 4, "offset": 0.0, "loop": true,  "cues": {"0": "strofa"}},
+  "cap3":     {"file": "res://assets/audio/music/cap3_impotenza.wav", "bpm": 150, "beats_per_bar": 4, "offset": 0.0, "loop": true,  "cues": {"0": "polka", "16": "blast", "24": "valzer"}},
+  "game_over":{"file": "res://assets/audio/music/game_over.wav",      "bpm": 100, "beats_per_bar": 4, "offset": 0.0, "loop": false, "cues": {}}
+}

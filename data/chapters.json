@@ -1,0 +1,67 @@
+{
+  "chapters": [
+    {
+      "id": 1,
+      "title": {"it": "LA BOMBA", "en": "THE BOMB"},
+      "genre": {"it": "metal forte", "en": "heavy metal"},
+      "icon": "res://assets/ui/capitolo_1.png",
+      "map": "res://data/levels/cap1.txt",
+      "theme": 0,
+      "background": "esterno",
+      "music": "cap1",
+      "intro": "cap1_intro",
+      "outro": "cap1_outro",
+      "goal": {"item": "uranio", "count": 5, "exit": "porta"},
+      "hint": {
+        "it": "RACCOGLI 5 PIANTE RADIOATTIVE. SALVA LE DONNE. RAGGIUNGI IL BUNKER.",
+        "en": "GRAB 5 RADIOACTIVE PLANTS. SAVE THE WOMEN. REACH THE BUNKER."
+      },
+      "goal_done": {"it": "URANIO PRONTO! AL BUNKER!", "en": "URANIUM READY! TO THE BUNKER!"},
+      "meter": null,
+      "enemies_hop_on_beat": true,
+      "madness_cues": []
+    },
+    {
+      "id": 2,
+      "title": {"it": "L'HAREM", "en": "THE HAREM"},
+      "genre": {"it": "ballad lenta", "en": "slow ballad"},
+      "icon": "res://assets/ui/capitolo_2.png",
+      "map": "res://data/levels/cap2.txt",
+      "theme": 1,
+      "background": "bunker",
+      "music": "cap2",
+      "intro": "cap2_intro",
+      "outro": "cap2_outro",
+      "goal": {"item": "festa", "count": 10, "exit": "crepa"},
+      "hint": {
+        "it": "BEVI, SBALLATI, NON ANNOIARTI. 10 PARTY E POI... LA CREPA.",
+        "en": "DRINK, GET HIGH, DON'T GET BORED. 10 PARTIES THEN... THE CRACK."
+      },
+      "goal_done": {"it": "MI ANNOIO... QUELLA CREPA NEL MURO...", "en": "I'M BORED... THAT CRACK IN THE WALL..."},
+      "meter": {"name": {"it": "NOIA", "en": "BOREDOM"}, "rise_per_sec": 2.5, "refill_items": ["bottiglia", "fungo"], "refill": 35},
+      "enemies_hop_on_beat": false,
+      "madness_cues": []
+    },
+    {
+      "id": 3,
+      "title": {"it": "L'IMPOTENZA", "en": "IMPOTENCE"},
+      "genre": {"it": "caotico, generi misti", "en": "chaotic, mixed genres"},
+      "icon": "res://assets/ui/capitolo_3.png",
+      "map": "res://data/levels/cap3.txt",
+      "theme": 2,
+      "background": "nucleare",
+      "music": "cap3",
+      "intro": "cap3_intro",
+      "outro": "cap3_outro",
+      "goal": {"item": "", "count": 0, "exit": "pecora"},
+      "hint": {
+        "it": "SEI SOLA. HAI FAME. MANGIA QUELLO CHE TROVI.",
+        "en": "YOU'RE ALONE. YOU'RE HUNGRY. EAT WHATEVER YOU FIND."
+      },
+      "goal_done": {"it": "", "en": ""},
+      "meter": {"name": {"it": "FAME", "en": "HUNGER"}, "rise_per_sec": 3.0, "refill_items": ["merda"], "refill": 60},
+      "enemies_hop_on_beat": false,
+      "madness_cues": ["blast"]
+    }
+  ]
+}
